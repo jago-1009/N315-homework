@@ -47,10 +47,7 @@ nav .link a {
   position: relative;
   top: 20px;
 }
-nav .link:hover {
-  background-image: url(../img/Cloud-Clip-4.png);
-  animation-duration: 0.5s;
-}
+
 
 body {
   min-height: 1000x;
