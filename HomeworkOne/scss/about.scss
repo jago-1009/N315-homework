@@ -1,0 +1,20 @@
+.OurStory {
+    width:100%;
+    justify-content: space-evenly;
+    display: flex;
+    .StoryText {
+        padding-right:20px;
+        padding-left:20px;
+    p {
+        font-size: 28px;
+    }
+    }
+    .storyImage {
+        height:400px;
+        width:1000px;
+        background-image: url(../img/AdobeStock_228516914.jpeg);
+        padding-right:545px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
