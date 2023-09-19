@@ -1,0 +1,24 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p, li {
+ margin-bottom: 16px;
+
+text-align: center;
+}
+#bread-crumb {
+    padding-top: 70px;
+    a {
+        text-decoration: none;
+        color:white;
+    }
+    color:white;
+    padding-left:20px;
+    z-index: 1;
+    background-color:#6675B8 ;
+}

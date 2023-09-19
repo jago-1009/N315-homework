@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+#bread-crumb {
+  padding-top: 70px;
+  color: white;
+  padding-left: 20px;
+  z-index: 1;
+  background-color: #6675B8;
+}
+#bread-crumb a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  z-index: 2;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  background-color: #6675B8;
+}
+nav .link {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/cloud-clip-3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 10px;
+  transition-duration: 0.5s;
+}
+nav .link a {
+  text-align: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+  background-size: contain;
+  border-radius: 30px;
+  margin: auto;
+  color: #6675B8;
+  position: relative;
+  top: 20px;
+}
+
+body {
+  min-height: 1000x;
+  background-color: #F9F9F9;
+  position: relative;
+}
+body .hero-index {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 200px;
+  background: linear-gradient(0deg, rgb(56, 202, 242) 0%, rgb(22, 135, 166) 100%);
+}
+body .hero-index .index-hero-img {
+  width: 1280px;
+  height: 1000px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  margin: auto;
+  background-image: url(../img/A-Plane-on-Sky-Backgrounds.jpg);
+}
+
+h1 {
+  text-align: center;
+  color: #F9F9F9;
+  font-size: 65px;
+}
+
+.card-holder {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-holder .card1 {
+  width: 225px;
+  height: 250px;
+  background-image: url(../img/Cloud-Clip-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition-duration: 0.5s;
+}
+.card-holder .card1 a {
+  text-decoration: none;
+  position: relative;
+  top: 100px;
+  font-size: 32px;
+  left: 20px;
+  color: #6675B8;
+}
+.card-holder .card2 {
+  width: 225px;
+  height: 250px;
+  background-image: url(../img/Cloud-Clip-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition-duration: 0.5s;
+}
+.card-holder .card2 a {
+  text-decoration: none;
+  position: relative;
+  top: 100px;
+  font-size: 32px;
+  left: 30px;
+  color: #6675B8;
+}
+.card-holder .card1:hover, .card-holder .card2:hover {
+  background-image: url(../img/cloud-clip-5.png);
+  animation-duration: 0.5s;
+}
+
+.bookings {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bookings .bookings-img {
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/cloud-clip-3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bookings .bookings-img a {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: 25px;
+  text-decoration: none;
+  color: #6675B8;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 75%;
+}
+footer p {
+  color: black;
+}
+
+.OurStory {
+  width: 100%;
+  justify-content: space-evenly;
+  display: flex;
+}
+.OurStory .StoryText {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.OurStory .StoryText p {
+  font-size: 28px;
+}
+.OurStory .storyImage {
+  height: 400px;
+  width: 1000px;
+  background-image: url(../img/AdobeStock_228516914.jpeg);
+  padding-right: 545px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.FindUs {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.FindUs .map iframe {
+  padding-left: 20px;
+}
+.FindUs .MapText {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2, li {
+  color: white;
+}
+
+.imgAirport {
+  width: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 30%;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  background-image: url(../img/airport.jpeg);
+}
+
+.bookings-content {
+  width: 100%;
+}
+.bookings-content h1, .bookings-content p {
+  position: relative;
+  top: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  color: white;
+}
+.bookings-content .bookings {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 500px;
+}
+.bookings-content .bookings .finland {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/SOLD-finland.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bookings-content .bookings .ireland {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/SOLD-Ireland.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bookings-content .bookings .japan {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/SOLD-Japan.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=styles.css.map */
