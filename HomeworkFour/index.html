@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+  <nav>
+    <div class="link"><a href="#home">Home</a></div>
+    <div class="link"><a href="#about">About Us</a></div>
+    <div class="link"><a href="#location">Location</a></div>
+    <div class="link"><a href="#contact">Contact Us</a></div>
+    <div class="link"><a class="login">Login</a></div>
+  </nav>
+  <div id="modal">
+    <div class="modal-content-holder">
+      <h1>LOGIN</h1>
+      <div class="input-container">
+      <input type="text" placeholder="Username" id="username"> 
+      <input type="password" placeholder="Password" id="password">
+      <input type="submit" value="Submit" id="submit"/>  
+      </div>
+      <div class="close-button close">X</div>
+      <span class="close-cancel close">Close</span>
+    </div>
+  
+  </div>
+  <div id="signed-in">
+    <div class="modal-content-holder">
+      <h1>LOGOUT</h1>
+     <h3>You are logged in. Would you like to logout?</h3>
+     <input type="submit" value="Logout" id="logout">
+      <div class="close-button sign-close">X</div>
+      <span class="close-cancel sign-close">Close</span>
+    </div>
+  
+  </div>
+  <div id="userinfo"></div>
+  <div id="bread-crumb"></div>
+    <div id="app"></div>
+      <footer>
+        <p>Copyright Free-Travel. All rights Reserved.</p>
+      </footer>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+  <script type="module" src="app/app.js"></script>
+  <script type="module" src="app/site.js"></script>
+</body>
+</html>
