@@ -13,3 +13,7 @@ https://in-info-web4.informatics.iupui.edu/~jacogarw/N315/HomeworkTwo
 ## Homework 3
 
 https://in-info-web4.informatics.iupui.edu/~jacogarw/N315/HomeworkThree
+
+## Homework 4
+
+https://in-info-web4.informatics.iupui.edu/~jacogarw/N315/HomeworkFour
